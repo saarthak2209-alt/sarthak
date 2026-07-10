@@ -18,4 +18,12 @@ A multi-page personal portfolio website built with semantic HTML5 and accessibil
 - ARIA labels and `aria-current` navigation state
 - SEO-friendly titles, descriptions, canonical links, and social metadata
 
+## Responsive CSS Architecture
+
+- Mobile-first layout with tablet and desktop breakpoints
+- CSS Grid for page sections, project/card systems, and the hero layout
+- Flexbox for navigation, action groups, tags, and footer alignment
+- Custom CSS variables for spacing, color, shadows, radius, and light/dark themes
+- `prefers-color-scheme` and `prefers-reduced-motion` support
+
 Open `index.html` in a browser to view the site.
