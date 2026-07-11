@@ -7,6 +7,8 @@ A multi-page personal portfolio website built with semantic HTML5 and accessibil
 - `index.html` - homepage
 - `about.html` - profile and background
 - `projects.html` - selected work
+- `todo.html` - JavaScript to-do list app with CRUD, filters, delegated events, and localStorage persistence
+- `weather.html` - async JavaScript weather dashboard using Fetch API, REST JSON, city search, and error handling
 - `contact.html` - accessible contact form
 
 ## Accessibility Features
