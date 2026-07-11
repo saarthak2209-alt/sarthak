@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Alex Morgan | Accessible Front-End Developer</title>
+    <meta name="description" content="Learn about Alex Morgan's approach to accessible front-end development, semantic HTML, and inclusive product design.">
+    <meta name="author" content="Alex Morgan">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="About Alex Morgan">
+    <meta property="og:description" content="Accessible front-end development rooted in semantic HTML and inclusive design.">
+    <meta property="og:type" content="profile">
+    <meta property="og:image" content="assets/workspace-gradient.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://example.com/about.html">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header" role="banner">
+      <div class="site-header__inner">
+        <a class="brand" href="index.html" aria-label="Alex Morgan portfolio home">Alex Morgan</a>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="page" tabindex="-1">
+      <section class="section" aria-labelledby="about-title">
+        <p class="eyebrow">About</p>
+        <h1 id="about-title">A practical accessibility advocate for everyday product teams.</h1>
+        <p class="lede">My work focuses on turning inclusive design goals into durable front-end systems: clear structure, predictable interaction, readable content, and careful testing.</p>
+        <ul class="meta-list" aria-label="Professional highlights">
+          <li><strong>Focus:</strong> semantic HTML, responsive CSS, accessible forms, and design-system implementation.</li>
+          <li><strong>Process:</strong> prototype, validate with keyboard and screen-reader heuristics, then harden with automated checks.</li>
+          <li><strong>Values:</strong> clarity, maintainability, measurable accessibility, and plain-language collaboration.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="site-footer__inner">
+        <p>&copy; 2026 Alex Morgan. All rights reserved.</p>
+        <nav aria-label="Footer navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
