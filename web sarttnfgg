@@ -1,0 +1,31 @@
+# Accessible Portfolio Website
+
+A multi-page personal portfolio website built with semantic HTML5 and accessibility-first structure.
+
+## Pages
+
+- `index.html` - homepage
+- `about.html` - profile and background
+- `projects.html` - selected work
+- `todo.html` - JavaScript to-do list app with CRUD, filters, delegated events, and localStorage persistence
+- `weather.html` - async JavaScript weather dashboard using Fetch API, REST JSON, city search, and error handling
+- `contact.html` - accessible contact form
+
+## Accessibility Features
+
+- Semantic landmarks: `header`, `nav`, `main`, `section`, `article`, and `footer`
+- Skip link for keyboard users
+- Explicit form labels and helpful descriptions
+- Visible focus states
+- ARIA labels and `aria-current` navigation state
+- SEO-friendly titles, descriptions, canonical links, and social metadata
+
+## Responsive CSS Architecture
+
+- Mobile-first layout with tablet and desktop breakpoints
+- CSS Grid for page sections, project/card systems, and the hero layout
+- Flexbox for navigation, action groups, tags, and footer alignment
+- Custom CSS variables for spacing, color, shadows, radius, and light/dark themes
+- `prefers-color-scheme` and `prefers-reduced-motion` support
+
+Open `index.html` in a browser to view 
